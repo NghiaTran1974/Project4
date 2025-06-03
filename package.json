@@ -1,0 +1,28 @@
+{
+  "name": "ronin-balance-checker",
+  "version": "1.0.0",
+  "description": "Ứng dụng kiểm tra số dư ví trên mạng Ronin Saigon testnet",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "ts-node src/index.ts",
+    "check-balance": "ts-node src/index.ts"
+  },
+  "keywords": [
+    "ronin",
+    "blockchain",
+    "balance",
+    "evm",
+    "education"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "ethers": "^6.8.1"
+  },
+  "devDependencies": {
+    "@types/node": "^20.8.10",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.2.2"
+  }
+}
